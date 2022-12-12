@@ -1,0 +1,33 @@
+# This is the git ignore file for the entire scan repository
+
+# Precompiled python files
+__pycache__/
+*.pyc
+
+# Python package build files
+build/
+dist/
+*.egg-info/
+
+# Compiled doc files
+docs/_build/
+
+# IDE specific files
+.idea/
+.vscode/
+
+# Embedded repositories, temporary folder
+cocoapi/**
+!.gitkeep
+
+# jupyter checkpoint files:
+.ipynb_checkpoints/
+
+# Temporary swap files
+*.swp
+
+# Files for testing 
+.python-version
+venv/
+.tox/
+.coverage
