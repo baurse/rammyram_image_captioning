@@ -16,8 +16,8 @@ docs/_build/
 .idea/
 .vscode/
 
-# Embedded repositories, temporary folder
-cocoapi/**
+# Embedded repositories, temporary folders
+cocoapi/*
 !.gitkeep
 
 # jupyter checkpoint files:
